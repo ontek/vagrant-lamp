@@ -1,0 +1,3 @@
+[submodule "chef/cookbooks/vagrant_magento"]
+	path = chef/cookbooks/vagrant_magento
+	url = git@github.com:ontek/vagrant_magento.git
