@@ -4,6 +4,3 @@
 [submodule "chef/cookbooks/vim"]
 	path = chef/cookbooks/vim
 	url = git://github.com/opscode-cookbooks/vim.git
-[submodule "chef/cookbooks/chef-modman"]
-	path = chef/cookbooks/chef-modman
-	url = https://github.com/ffuenf/chef-modman.git
