@@ -25,13 +25,13 @@ require 'chef/mixin/language'
 include Chef::Mixin::ShellOut
 
 action :discover do
-  unless exists?
+  #unless exists?
     Chef::Log.info("Discovering pear channel #{@new_resource}")
     execute "pear channel-discover #{@new_resource.channel_name}" do
       action :run
     end
     new_resource.updated_by_last_action(true)
-  end
+  #end
 end
 
 action :add do

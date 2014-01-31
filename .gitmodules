@@ -4,3 +4,12 @@
 [submodule "chef/cookbooks/vim"]
 	path = chef/cookbooks/vim
 	url = git://github.com/opscode-cookbooks/vim.git
+[submodule "chef/cookbooks/chefmage"]
+	path = chef/cookbooks/chefmage
+	url = git://github.com/r8/chef-magento-toolbox.git
+[submodule "chef/cookbooks/phpunit"]
+	path = chef/cookbooks/phpunit
+	url = https://github.com/escapestudios/chef-phpunit.git
+[submodule "chef/cookbooks/xdebug"]
+	path = chef/cookbooks/xdebug
+	url = https://github.com/xforty/chef-xdebug.git
